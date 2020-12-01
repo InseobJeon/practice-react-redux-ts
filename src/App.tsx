@@ -2,12 +2,10 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import CounterContainer from './containers/CounterContainer';
+import Counter from './components/Counter';
 
-function App() {
+export default function App() {
   return (
-    <CounterContainer />
+    <Counter />
   );
 }
-
-export default App;
